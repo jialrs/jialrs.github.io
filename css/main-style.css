@@ -1,0 +1,124 @@
+div.container {
+    width: 800px;
+    background: #E4F0F8;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid Grey;
+    margin: 10px;
+    text-align: left;
+    border-radius: 3px;
+    -moz-box-shadow:1px 2px 8px #66B3FF;
+    -webkit-box-shadow:1px 2px 8px #66B3FF; 
+    box-shadow:1px 2px 8px #66B3FF; 
+    
+}
+body{
+	margin: auto;
+	background: #EEEEEE;
+}
+.tab-header-clicked{
+	background: inherit;
+}
+.ui-tabs .ui-tabs-nav{
+	background: #E4F0F8;
+	border: 0px;
+}
+.ui-widget-content{
+	background: #E4F0F8;
+	border: 0px;
+}
+
+.ui-state-active{
+	background: #E4F0F8;
+}
+.ui-state-default{
+	background: #E4F0F8;
+}
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus,
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active,
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+	background: #E4F0F8;
+	border-right-width: 0px;
+	border-bottom-width: 3px;
+	border-bottom-color: #1c94c4;
+	border-top-width: 0px;
+	border-left-width: 0px;
+
+}
+.ui-state-default .ui-corner-top{
+	background: #E4F0F8;
+	border: 0px;
+}
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus,
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+	border-bottom-width: 3px;
+	border-bottom-color: #1c94c4;
+	background: #E4F0F8;
+	font-weight: bold;
+	color: #c77405;
+}
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited{
+	color: #1c94c4;
+}
+div.abstract {
+    display: none;
+    padding: 10px;
+    margin: 10px;
+    width: 625px;
+    line-height: 1.4em;
+    background-color: #DEEFF5;
+    border: 1px solid gray;
+    font-size: 11pt;
+}
+.ui-widget{
+	font-family: None;
+	font-size: 16px;
+}
+div.title {   color:          Black;   
+}
+div.pixels-photo{
+	width: 650px;
+
+}
+img.photo{
+	width: inherit;
+	margin-left: -15px;
+	border: 15px solid Snow;
+}
+a{
+	color: Blue;
+}
+div.abstract {   
+	display:        none;
+                    padding:        10px;
+                    margin:         10px;
+                    width:          625px;
+                    line-height:    1.4em;
+                    background-color:#C5E3E5;
+                    border:         1px solid gray;
+                    }
+.abstract p {   margin:         5px;        
+}
+ul.circle {   list-style-type:circle;     
+                    line-height:    1.4em;
+                    margin-left:    -15px;      
+                    }
+li.list {   padding-left:   10px;       
+}
+ul.none {   padding-left:   10px;       
+                    margin-left:    15px;
+                    list-style-type:none;       
+                    }
+li.paper {   padding-left:    10px;
+                    margin-bottom:  10px;       
+                    }
