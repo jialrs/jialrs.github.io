@@ -1,7 +1,7 @@
 var authorList = {
     Xiaoming : {
         name : "Xiaomnig Sun",
-        web : "http://www.carch.ac.cn/~xmsun/xmsun.htm"
+        web : "http://theory.ict.ac.cn/sunxiaoming/"
     },
 
     Jialin : {
@@ -11,7 +11,7 @@ var authorList = {
 
     Qian : {
         name : "Qian Li",
-        web : "http://theory.ict.ac.cn/liqian/"
+        web : "http://theory.ict.ac.cn/liqian/index.htm"
     },
 
     Qiang : {
@@ -46,5 +46,29 @@ var authorList = {
     Qizhi : {
     	  name: "Qizhi Fang",
     	  web: "http://eweb.ouc.edu.cn/ms/37/cd/c4086a14285/page.htm"
+    },
+    JiangBian : {
+        name : "Jiang Bian",
+        web : "https://sites.google.com/site/jiangbianhome/"
+    },
+    Guolin : {
+        name: "Guolin Ke",
+        web: "https://www.microsoft.com/en-us/research/people/guoke/"
+    },
+    Xihan: {
+        name: "Xihan Li",
+        web: "#"
+    },
+    Yunhai:{
+        name: "Yunhai Tong",
+        web: "http://www.cis.pku.edu.cn/faculty/system/tongyunhai/tongyunhai.htm"
+    },
+    Zhenhui:{
+        name: "Zhenhui Xu",
+        web: "#"
+    },
+    Yanyan:{
+        name: "Yanyan Lan",
+        web: "http://www.bigdatalab.ac.cn/~lanyanyan/"
     }
 };

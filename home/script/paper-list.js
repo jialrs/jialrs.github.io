@@ -2,28 +2,23 @@ var papers = new Array (
 
 	  {
         id : "ads16",
-        name : "Delivery Policy to Minimize User Traffic Consumption in Guaranteed Advertising",
-        coauthors : new Array(authorList.Zheng, authorList.Qian, authorList.Qiang, authorList.Jialin, authorList.Xiaoming),
-        conference : "Manuscript",
-        type : "eo",
+        name : "Efficient delivery policy to minimize user traffic consumption in guaranteed advertising",
+        coauthors : new Array(authorList.Zheng, authorList.Qian, authorList.Qiang, authorList.Jialin, authorList.Yanyan, authorList.Xiaoming),
+        conference : "AAAI 2017",
+        type : "e",
+        paperAbstract: "<p>In this work, we study the guaranteed delivery model which is widely used in online display advertising. In the guaranteed delivery scenario, ad exposures (which are also called impressions in some works) to users are guaranteed by contracts signed in advance between advertisers and publishers. A crucial problem for the advertising platform is how to fully utilize the valuable user traffic to generate as much as possible revenue. Different from previous works which usually minimize the penalty of unsatisfied contracts and some other cost (e.g. representativeness), we propose the novel consumption minimization model, in which the primary objective is to minimize the user traffic consumed to satisfy all contracts. Under this model, we develop a near optimal method to deliver ads for users. The main advantage of our method lies in that it consumes nearly as least as possible user traffic to satisfy all contracts, therefore more contracts can be accepted to produce more revenue. It also enables the publishers to estimate how much user traffic is redundant or short so that they can sell or buy this part of traffic in bulk in the exchange market. Furthermore, it is robust with regard to priori knowledge of user type distribution. Finally, the simulation shows that our method outperforms the traditional state-of-the-art methods. </p>"
      },
 
      {
         id : "sche16-2",
-        name : "Online Mechanisms for Reusable Resource Reservation",
-        coauthors : new Array(authorList.Tieyan, authorList.Weidong, authorList.Tao, authorList.Xiaoming),
-        conference : "Manuscript",
-        type : "go"
+        name : "Randomized mechanisms for selling reserved instances in cloud",
+        coauthors : new Array(authorList.Weidong, authorList.Tao, authorList.Xiaoming, authorList.Tieyan),
+        conference : "AAAI 2017",
+        arxiv: "https://arxiv.org/abs/1611.07379",
+        type : "g",
+        paperAbstract: "<p>Selling reserved instances (or virtual machines) is a basic service in cloud computing. In this paper, we consider a more flexible pricing model for instance reservation, in which a customer can propose the time length and number of resources of her request, while in today's industry, customers can only choose from several predefined reservation packages. Under this model, we design randomized mechanisms for customers coming online to optimize social welfare and providers' revenue. We first consider a simple case, where the requests from the customers do not vary too much in terms of both length and value density. We design a randomized mechanism that achieves a competitive ratio $\frac{1}{42}$ for both \emph{social welfare} and \emph{revenue}, which is a improvement as there is usually no revenue guarantee in previous works such as \cite{azar2015ec,wang2015selling}. This ratio can be improved up to $\frac{1}{11}$ when we impose a realistic constraint on the maximum number of resources used by each request. On the hardness side, we show an upper bound $\frac{1}{3}$ on competitive ratio for any randomized mechanism. We then extend our mechanism to the general case and achieve a competitive ratio $\frac{1}{42\ceil{\log k}\ceil{\log T}}$ for both social welfare and revenue, where $T$ is the ratio of the maximum request length to the minimum request length and $k$ is the ratio of the maximum request value density to the minimum request value density. This result outperforms the previous upper bound $\frac{1}{CkT}$ for deterministic mechanisms \cite{wang2015selling}. We also prove an upper bound $\frac{2}{\log 8kT}$ for any randomized mechanism. All the mechanisms we provide are in a greedy style. They are truthful and easy to be integrated into practical cloud systems.</p>"
      },
 
-     {
-        id : "sche16-1",
-        name : "Randomized Mechanisms for Selling Reserved Instances in Cloud",
-        coauthors : new Array(authorList.Weidong, authorList.Tao, authorList.Xiaoming, authorList.Tieyan),
-        conference : "Manuscript",
-        type : "go"
-     },
-    
      {
         id : "matching15",
         name : "Computing the Least-core and Nucleolus for Threshold Cardinality Matching Games",
