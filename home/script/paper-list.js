@@ -1,6 +1,13 @@
 var papers = new Array (
 
      {
+        id: "aaai2020",
+        name: "Light Multi-Segment Activation for Model Compression",
+        coauthors: new Array(authorList.Zhenhui, authorList.Guolin, authorList.JiangBian, authorList.Tieyan),
+        conference: "AAAI 2020",
+        paperAbstract: "Model compression has become necessary when applying neural networks (NN) into many real application tasks that can accept slightly-reduced model accuracy but with strict tolerance to model complexity. Recently, Knowledge Distillation, which distills the knowledge from well-trained and highly complex teacher model into a compact student model, has been widely used for model compression. However, under the strict requirement on the resource cost, it is quite challenging to make student model achieve comparable performance with the teacher one, essentially due to the drasticallyreduced expressiveness ability of the compact student model. Inspired by the nature of the expressiveness ability in NN, we propose to use multi-segment activation, which can significantly improve the expressiveness ability with very little cost, in the compact student model. Specifically, we propose a highly efficient multi-segment activation, called Light Multisegment Activation (LMA), which can rapidly produce multiple linear regions with very few parameters by leveraging the statistical information. With using LMA, the compact student model is capable of achieving much better performance effectively and efficiently, than the ReLU-equipped one with same model complexity. Furthermore, the proposed method is compatible with other model compression techniques, such as quantization, which means they can be used jointly for better compression performance. Experiments on state-of-the-art NN architectures over the real-world tasks demonstrate the effectiveness and extensibility of the LMA."
+     },
+     {
         id: "kdd19",
         name: "DeepGBM: A Deep Learning Framework Distilled by GBDT for Online Prediction Tasks",
         coauthors: new Array(authorList.Guolin, authorList.Zhenhui, authorList.JiangBian, authorList.Tieyan),
