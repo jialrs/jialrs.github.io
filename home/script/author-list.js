@@ -70,5 +70,25 @@ var authorList = {
     Yanyan:{
         name: "Yanyan Lan",
         web: "http://www.bigdatalab.ac.cn/~lanyanyan/"
+    },
+
+    Wenlei:{
+        name: "Wenlei Shi",
+        web: "#"
+    },
+
+    Xinran:{
+        name: "Xinran Wei",
+        web: "#"
+    },
+
+    Xiaoyuan:{
+        name: "Xiaoyuan Ni",
+        web: "#"
+    },
+
+    Arthur:{
+        name: "Arthur Jiang",
+        web: "#"
     }
 };

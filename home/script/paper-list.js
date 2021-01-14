@@ -1,6 +1,13 @@
 var papers = new Array (
 
      {
+        id: "aamas2021",
+        name: "Cooperative Policy Learning with Pre-trained Heterogeneous Observation Representations",
+        coauthors: new Array(authorList.Wenlei, authorList.Xinran, authorList.Arthur, authorList.JiangBian, authorList.Tieyan),
+        conference: "AAMAS 2021",
+        paperAbstract: "Multi-agent reinforcement learning (MARL) has been increasingly explored to learn the cooperative policy towards maximizing a certain global reward. Many existing studies take advantage of graph neural networks (GNN) in MARL to propagate critical collaborative information over the interaction graph, built upon inter-connected agents. Nevertheless, the vanilla GNN approach yields substantial defects in dealing with complex real-world scenarios since the generic message passing mechanism is ineffective between heterogeneous vertices and, moreover, simple message aggregation functions are incapable of accurately modeling the combinational interactions from multiple neighbors. While adopting complex GNN models with more informative message passing and aggregation mechanisms can obviously benefit heterogeneous vertex representations and cooperative policy learning, it could, on the other hand, increase the training difficulty of MARL and demand more intense and direct reward signals compared to the original global reward. To address these challenges, we propose a new cooperative learning framework with pre-trained heterogeneous observation representations. Particularly, we employ an encoder-decoder based graph attention to learn the intricate interactions and heterogeneous representations that can be more easily leveraged by MARL. Moreover, we design a pre-training with local actor-critic algorithm to ease the difficulty in cooperative policy learning. Extensive experiments over real-world scenarios demonstrate that our new approach can significantly outperform existing MARL baselines as well as operational research solutions that are widely-used in industry."
+     },
+     {
         id: "aaai2020",
         name: "Light Multi-Segment Activation for Model Compression",
         coauthors: new Array(authorList.Zhenhui, authorList.Guolin, authorList.JiangBian, authorList.Tieyan),
